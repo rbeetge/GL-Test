@@ -8,3 +8,6 @@ Objective:
 The objective of this test is to see how easily you can adapt to an already existing code base and to test your DB migration skills. 
 The application consists of two tables in the database - Product and Category. Currently, Product only supports one Category. We want to change this so that we can set multiple categories to a product. 
 Existing data should still persist after the model change.
+
+Note:
+This is a slim version of the codebase that this role will have to work with. 
