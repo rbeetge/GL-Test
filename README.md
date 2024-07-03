@@ -1,8 +1,8 @@
 Before you start:
 
-1. You can change the connection string to what DB Server you have currently installed on you machine. Otherwise, you'll need to install SQL Express.
-2. Run the update database command so the solution can create the DB and prepopulate it (In package manager console, "update-database" or "dotnet ef database update -p GLTest.Core -s GLTest". It's possible the migration script might not work with PostgreSQL and you'll have to update the migration script.
-3. Clone this repo and make you changes there. You can just send the link to the repo once done.
+1. You can change the connection string to what DB Server you have currently installed on you machine. If you have SQL Server Express, that should just work.
+2. Run the update database command so the solution can create the DB and prepopulate it. In package manager console, "update-database" or "dotnet ef database update -p GLTest.Core -s GLTest". If you are using PostgreSQL, you might have to update the migration sql script. The file is under the Migrations folder named 20240703015430_SeedData.cs.
+3. Clone this repo and make your changes there. You can just send us the link to the repo once done.
 
 Objective:
 The objective of this test is to see how easily you can adapt to an already existing code base and to test your DB migration skills. 
