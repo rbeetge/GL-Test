@@ -1,7 +1,7 @@
 Before you start:
 
 1. You can change the connection string to what DB Server you have currently installed on you machine. Otherwise, you'll need to install SQL Express.
-2. Run the update database command so the solution can create the DB and prepopulate it. It's possible the migration script might not work with PostgreSQL.
+2. Run the update database command so the solution can create the DB and prepopulate it (In package manager console, "update-database" or "dotnet ef database update -p GLTest.Core -s GLTest". It's possible the migration script might not work with PostgreSQL and you'll have to update the migration script.
 3. Clone this repo and make you changes there. You can just send the link to the repo once done.
 
 Objective:
