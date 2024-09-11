@@ -1,5 +1,4 @@
 ﻿using GLTest.Core.Common;
-using GLTest.Core.Domains.Categories;
 
 namespace GLTest.Core.Domains.Products
 {

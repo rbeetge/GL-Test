@@ -1,4 +1,5 @@
 ﻿using GLTest.Core.Domains.Categories;
+using GLTest.Core.Domains.ProductCategories;
 
 namespace GLTest.Core.Domains.Products
 {
@@ -17,11 +18,6 @@ namespace GLTest.Core.Domains.Products
             {
                 ProductName = name
             };
-        }
-
-        public void SetCategory(Guid categoryId)
-        {
-            CategoryId = categoryId;
         }
     }
 }

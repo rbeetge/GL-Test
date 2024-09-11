@@ -1,4 +1,5 @@
 ﻿using GLTest.Core.Domains.Categories;
+using GLTest.Core.Domains.ProductCategories;
 using GLTest.Core.Domains.Products;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,6 +11,7 @@ namespace GLTest.Core.Domains
         { 
             services.AddTransient<ICategoryFactory, CategoryFactory>();
             services.AddTransient<IProductFactory, ProductFactory>();
+            services.AddTransient<IProductCategoryFactory, ProductCategoryFactory>();
         }
     }
 }

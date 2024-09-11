@@ -1,4 +1,5 @@
 ﻿using GLTest.Core.Repositories.Categories;
+using GLTest.Core.Repositories.ProductCategories;
 using GLTest.Core.Repositories.Products;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,6 +11,7 @@ namespace GLTest.Core.Repositories
         { 
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
         }
     }
 }
